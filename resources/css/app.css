@@ -1,0 +1,143 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import "bootstrap";
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 250;
+    background-image: url("../../public/topb-bg.jpg");
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header__logo {
+    margin-bottom: 20px;
+}
+
+.header__phone {
+    font-weight: 600;
+    font-family: 'Marck Script', cursive;
+}
+.header__phone a {
+    position: relative; padding-left: 25px; display: inline-block; vertical-align: top; color: white; text-decoration: none;
+}
+.menu{
+    margin-top:5%;
+}
+.wrapper {
+    position: relative; max-width: 1200px; margin: 0 auto; padding: 0 15px;
+}
+.menu-item {
+    width: 40%;
+    background: #fe8e52;
+    border-radius: 10px;
+    margin: 1%;
+}
+.menu-item-text{
+    color: white;
+    font-family: 'Marck Script', cursive;
+}
+.nav-link{
+    color: white !important;
+}
+a.nav-bar-header:active{
+    border-bottom: #fe8e52 3px  solid;
+}
+a.nav-bar-header:hover{
+    border-bottom: #fe8e52 3px solid;
+    transform: scale(1.1);
+}
+.nav-bar-header{
+    font-family: 'Marck Script', cursive;
+}
+.nav-bar-h{
+    height: 100px;
+    padding-top: 32px;
+}
+.menu-item:hover{
+    background: #fd5b03;
+    transform: scale(1.1);
+}
+.card-btn:hover{
+    transform: scale(1.1);
+}
+.loginOrRegister{
+    background-image: url("../../public/topb-bg.jpg");
+}
+.btn-login{
+    background: #fe8e52;
+}
+.btn-login:hover{
+    background: #fd5b03;
+}
+.btn-login:active{
+    background: #fd5b03;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.push {
+    list-style: none;
+    font-family: "Lucida Sans";
+}
+.push li {
+    position: relative;
+    padding: 20px 0 20px 40px;
+    color: #fe8e52;
+    font-variant: small-caps;
+    font-weight: bold;
+    cursor: pointer;
+}
+.push li:before {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fe8e52;
+    content: "";
+    left: 0;
+    transition: .3s ease-in-out;
+    top: 27px;
+}
+.push li:after {
+    position: absolute;
+    border-left: 1px dotted #4F5151;
+    width: 1px;
+    bottom: -12px;
+    content: "";
+    left: 3px;
+    top: 48px;
+}
+.push li:hover:before{box-shadow: 0 0 0 10px  #fd5b03}
+.push li:last-child:after {content: none;}
+.text-typing
+{
+    width: 40em;
+    color:#fe8e52;
+    font-size: 22px;
+    font-family: 'Marck Script', cursive;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+@keyframes type{
+    from { width: 0; }
+}
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+.window-item div{
+    display: inline;
+}
