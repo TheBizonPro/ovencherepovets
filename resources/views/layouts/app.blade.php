@@ -12,23 +12,16 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="icon" href="{{asset('favicon.ico')}}">
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
-
-
-            <!-- Page Heading -->
-            <header class="header">
-                <div class="header__wrapper wrapper">
-                    {{ $header }}
-                </div>
-            </header>
-
+    <body >
+        <div class="wrapper">
+                {{$header}}
             <!-- Page Content -->
-            <main class="container">
+            <main class="container" style="height: 100vh;" >
                 <div class="row">
                 {{ $slot }}
                 </div>

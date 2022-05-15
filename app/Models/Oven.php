@@ -34,4 +34,8 @@ class Oven extends Model
     {
        return $this->belongsToMany(Category::class);
     }
+
+    public static function scopeActive($query){
+        return $query->where('active',1)->get();
+    }
 }

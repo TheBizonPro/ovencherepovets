@@ -3,22 +3,21 @@ import ReactDOM from 'react-dom';
 
 function Header() {
     return (
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-header">Example Component</div>
-
-                        <div className="card-body">I'm an example component!</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+     <header>
+         <div>
+             <img src="../logonew.png" className="header__logo"/>
+             <ul className="top-menu">
+                 <li>Главная</li>
+                 <li>О нас</li>
+             </ul>
+         </div>
+         <div className="presentation"></div>
+     </header>
     );
 }
 
 export default Header;
 
-if (document.getElementById('example')) {
+if (document.getElementById('header')) {
     ReactDOM.render(<Header />, document.getElementById('header'));
 }

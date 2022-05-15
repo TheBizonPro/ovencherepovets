@@ -2,14 +2,26 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import "bootstrap";
+@import "../../node_modules/font-awesome/css/font-awesome.css";
+@import "../../node_modules/@fortawesome/fontawesome-svg-core/styles.css";
+@import "../../node_modules/@fortawesome/fontawesome-free/css/solid.css";
+@import "../../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import "../../node_modules/@fortawesome/fontawesome-free/css/regular.css";
 
+html body{
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1006%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 243%2c 236%2c 1)'%3e%3c/rect%3e%3cpath d='M1150.692%2c765.369C1203.965%2c761.609%2c1246.841%2c728.528%2c1275.914%2c683.729C1308.611%2c633.346%2c1337.019%2c573.063%2c1310.45%2c519.196C1281.522%2c460.546%2c1215.94%2c425.45%2c1150.692%2c429.846C1091.292%2c433.848%2c1054.359%2c487.071%2c1024.325%2c538.475C993.903%2c590.544%2c961.25%2c651.181%2c990.592%2c703.866C1020.405%2c757.397%2c1089.571%2c769.683%2c1150.692%2c765.369' fill='rgba(249%2c 209%2c 188%2c 0.42)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M692.3174290060159 353.46338069288294L666.9835381294134 193.51148879812206 507.0316462346526 218.8453796747245 532.365537111255 378.7972715694854z' fill='rgba(249%2c 209%2c 188%2c 0.42)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M327.342%2c511.084C355.26%2c510.511%2c373.154%2c485.115%2c387.459%2c461.134C402.278%2c436.291%2c416.939%2c408.007%2c404.371%2c381.953C390.488%2c353.173%2c359.21%2c334.174%2c327.342%2c336.506C298.31%2c338.63%2c280.814%2c365.999%2c267.64%2c391.957C256.014%2c414.864%2c251.281%2c440.73%2c262.79%2c463.695C275.608%2c489.273%2c298.738%2c511.671%2c327.342%2c511.084' fill='rgba(249%2c 209%2c 188%2c 0.42)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1265.099%2c576.792C1311.066%2c574.863%2c1334.99%2c527.497%2c1358.087%2c487.708C1381.328%2c447.67%2c1411.8%2c402.761%2c1389.748%2c362.055C1367.137%2c320.318%2c1312.558%2c315.154%2c1265.099%2c316.061C1219.675%2c316.929%2c1171.736%2c327.663%2c1148.437%2c366.666C1124.659%2c406.47%2c1135.026%2c455.589%2c1157.532%2c496.125C1180.849%2c538.122%2c1217.105%2c578.806%2c1265.099%2c576.792' fill='rgba(249%2c 209%2c 188%2c 0.42)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M369.312%2c310.504C407.825%2c307.571%2c438.759%2c282.087%2c457.908%2c248.543C476.866%2c215.333%2c481.828%2c176.423%2c465.623%2c141.786C446.412%2c100.725%2c414.635%2c60.109%2c369.312%2c59.175C322.93%2c58.219%2c288.651%2c97.256%2c265.868%2c137.668C243.587%2c177.191%2c230.489%2c225.158%2c253.789%2c264.089C276.631%2c302.255%2c324.961%2c313.882%2c369.312%2c310.504' fill='rgba(249%2c 209%2c 188%2c 0.42)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M128.98419940944618 584.7876507122054L214.9640421659199 544.694591587899 174.87098304161356 458.71474883142537 88.89114028513984 498.8078079557317z' fill='rgba(249%2c 209%2c 188%2c 0.42)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1006'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 .header {
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     z-index: 250;
-    background-image: url("../../public/topb-bg.jpg");
 }
 
 .header__wrapper {
@@ -20,6 +32,7 @@
 }
 .header__logo {
     margin-bottom: 20px;
+
 }
 
 .header__phone {
@@ -30,10 +43,11 @@
     position: relative; padding-left: 25px; display: inline-block; vertical-align: top; color: white; text-decoration: none;
 }
 .menu{
-    margin-top:5%;
+    width: 40%;
 }
 .wrapper {
-    position: relative; max-width: 1200px; margin: 0 auto; padding: 0 15px;
+    width: 1280px;
+    margin: 50px auto;
 }
 .menu-item {
     width: 40%;
@@ -62,9 +76,15 @@ a.nav-bar-header:hover{
     height: 100px;
     padding-top: 32px;
 }
+.menu-item{
+    transition:  transform 500ms ease ;
+}
 .menu-item:hover{
     background: #fd5b03;
     transform: scale(1.1);
+}
+.card-btn{
+    transition:  transform 500ms ease ;
 }
 .card-btn:hover{
     transform: scale(1.1);
@@ -92,6 +112,7 @@ a.nav-bar-header:hover{
     font-family: "Lucida Sans";
 }
 .push li {
+    font-size: 22px;
     position: relative;
     padding: 20px 0 20px 40px;
     color: #fe8e52;
@@ -127,10 +148,7 @@ a.nav-bar-header:hover{
     color:#fe8e52;
     font-size: 22px;
     font-family: 'Marck Script', cursive;
-    white-space:nowrap;
     overflow:hidden;
-    -webkit-animation: type 5s steps(50, end);
-    animation: type 5s steps(50, end);
 }
 @keyframes type{
     from { width: 0; }
@@ -140,4 +158,88 @@ a.nav-bar-header:hover{
 }
 .window-item div{
     display: inline;
+}
+.presentation{
+    margin: 50px 0;
+    background: url("../../public/step11-bg.jpg") no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center ;
+    position: relative;
+    border-radius: 10px;
+}
+header .presentation::after{
+    content: "Лучшие печи для вашего дома";
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 300px;
+    font-size:40px;
+    font-family: 'Marck Script', cursive;
+    font-weight: 600;
+    color:white;
+}
+header .presentation::before{
+    content: "по адекватным ценам";
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    width: 300px;
+    font-size:15px;
+    font-family: 'Marck Script', cursive;
+    font-weight: 300;
+    color:white;
+}
+header ul.top-menu{
+    margin-top: 50px;
+    float: right;
+    list-style:none;
+}
+header ul.top-menu li{
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    font-size:40px;
+    font-weight: 300;
+    transition: opacity 500ms ease;
+}
+header ul.top-menu li a{
+    font-family: 'Marck Script', cursive;
+    color:#fe8e52 !important;
+    text-decoration: none;
+}
+header ul.top-menu li:hover{
+    opacity: 0.7;
+}
+.content1{
+    display: flex;
+    align-items: center;
+
+}
+
+.content1 div{
+    margin-top: 50px;
+    display: inline;
+}
+.item{
+    display: flex;
+    width: 100%;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.item div.items{
+    float: left ;
+    width: 30%;
+    margin-right:20px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.items img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    transition:  transform 500ms ease ;
+}
+.items img:hover{
+    transform: scale(1.05);
 }
